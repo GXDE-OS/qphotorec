@@ -3,7 +3,7 @@ Section: admin
 Priority: optional
 Maintainer: Jean-Michel Kelbert <kelbert@debian.org>
 Uploaders: Roland Stigge <stigge@antcom.de>
-Build-Depends: debhelper (>= 9.20160114), libext2fs-dev, libncurses-dev, ntfs-3g-dev [!hurd-i386], libjpeg-dev, uuid-dev, zlib1g-dev, dh-autoreconf, pkgconf
+Build-Depends: debhelper (>= 9.20160114), libext2fs-dev, libncurses-dev, ntfs-3g-dev [!hurd-i386], libjpeg-dev, uuid-dev, zlib1g-dev, dh-autoreconf, pkgconf, qttools5-dev-tools
 Standards-Version: 4.3.0
 
 Package: testdisk
