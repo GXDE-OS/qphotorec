@@ -1,0 +1,4 @@
+version=3
+opts=uversionmangle=s/_/./g;s/^(\S+\.mac\.)/0.0.$1/;s/^(\S+-x86(?:\.64)?(?:-rhel)?)$/0.0.$1/;s/^(\S+\.linux)/0.0.$1/;s/^(\S+-x86\.64)/0.0.$1/;s/^(\S+\.arm)/0.0.$1/ \
+http://www.cgsecurity.org/wiki/TestDisk_Download \
+(?:|.*/)testdisk(?:[_\-]v?|)(\d\S*)\.(?:tar\.xz|txz|tar\.bz2|tbz2|tar\.gz|tgz)
