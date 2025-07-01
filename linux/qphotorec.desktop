@@ -5,6 +5,6 @@ Name=QPhotoRec
 GenericName=Data Recovery Utility
 Icon=qphotorec
 TryExec=/usr/bin/qphotorec
-Exec=/usr/bin/qphotorec %F
+Exec=pkexec /usr/bin/qphotorec %F
 Terminal=false
 Categories=System;Filesystem;Qt;
